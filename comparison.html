@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+
+
+<head>
+    
+
+  <meta charset="UTF-8">
+
+  <title>Comparisons</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet"href="bootstrap.css">
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+        <h1 class="display-3">Compsrisons</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="cities_home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="viz1.html">Temperature</a>
+                              <a class="dropdown-item" href="viz2.html">Humidity</a>
+                              <a class="dropdown-item" href="viz3.html">Cloudiness</a>
+                              <a class="dropdown-item" href="viz4.html">Wind Speed</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="comparison.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        <p class="lead">While there is a clear correlation between temperature and latitude, it was harder to see the correlations for the other variables.
+            <br> Latitude has the biggest effect on temperature than any of the other variables. 
+            <br> Overall, most of the citues measured had a higher humidity percentage and a lower wind speed percentage.  
+            <br> Cloudiness was the hardest variable to see a correlation to latitude.  
+        </p>
+        <hr class="my-4">
+        <p>Check out the below scatterplots!</p>
+    </div>
+    <div class="col-lg-12 col-md-12">
+            <div class="jumbotron">
+                <h3>Visualizations</h3>
+                <hr class="my-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a target="_blank" href="viz1.html"><img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image"></a>
+                            <h4>Max Temperature vs. Latitude</h4>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a target="_blank" href="viz2.html"><img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image"></a>
+                            <h4>Humidity vs. Latitude</h4>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a target="_blank" href="viz3.html"><img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image"></a>
+                            <h4>Cloudiness vs. Latitude</h4>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a target="_blank" href="viz4.html"><img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image"></a>
+                            <h4>Wind Speed vs. Latitude</h4>
+                        </div>
+
+
+
+</body>
+
+</html>
